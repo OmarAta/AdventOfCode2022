@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var result = ""
-    let days: [Day] = [Day1(), Day2(), Day3()]
+    let days: [Day] = [Day1(), Day2(), Day3(), Day4()]
     var body: some View {
         VStack {
             Image(systemName: "line.horizontal.star.fill.line.horizontal")
@@ -19,6 +19,7 @@ struct ContentView: View {
             TextField("result", text: $result)
                 .font(.largeTitle)
                 .multilineTextAlignment(.center)
+                .padding()
             
             ForEach(Array(days.enumerated()), id: \.offset) { index, day in
                 HStack {

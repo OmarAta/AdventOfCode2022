@@ -17,6 +17,8 @@
 		327C277D293FD63C0032866C /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C277C293FD63C0032866C /* Day2.swift */; };
 		329E152E293FF71200B18B28 /* Input3 in Resources */ = {isa = PBXBuildFile; fileRef = 329E152D293FF71200B18B28 /* Input3 */; };
 		329E1530293FF71F00B18B28 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E152F293FF71F00B18B28 /* Day3.swift */; };
+		329E1532294005C100B18B28 /* Input4 in Resources */ = {isa = PBXBuildFile; fileRef = 329E1531294005C100B18B28 /* Input4 */; };
+		329E1534294005CF00B18B28 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E1533294005CF00B18B28 /* Day4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		327C277C293FD63C0032866C /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		329E152D293FF71200B18B28 /* Input3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input3; sourceTree = "<group>"; };
 		329E152F293FF71F00B18B28 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		329E1531294005C100B18B28 /* Input4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input4; sourceTree = "<group>"; };
+		329E1533294005CF00B18B28 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				327C2778293FD2EA0032866C /* Input1 */,
 				327C277A293FD6230032866C /* Input2 */,
 				329E152D293FF71200B18B28 /* Input3 */,
+				329E1531294005C100B18B28 /* Input4 */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 				327C2775293EAD050032866C /* Day1.swift */,
 				327C277C293FD63C0032866C /* Day2.swift */,
 				329E152F293FF71F00B18B28 /* Day3.swift */,
+				329E1533294005CF00B18B28 /* Day4.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 				327C277B293FD6230032866C /* Input2 in Resources */,
 				327C276E293EAC330032866C /* Preview Assets.xcassets in Resources */,
 				327C2779293FD2EA0032866C /* Input1 in Resources */,
+				329E1532294005C100B18B28 /* Input4 in Resources */,
 				327C276B293EAC330032866C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				327C2769293EAC310032866C /* ContentView.swift in Sources */,
+				329E1534294005CF00B18B28 /* Day4.swift in Sources */,
 				329E1530293FF71F00B18B28 /* Day3.swift in Sources */,
 				327C277D293FD63C0032866C /* Day2.swift in Sources */,
 				327C2776293EAD050032866C /* Day1.swift in Sources */,
@@ -319,6 +327,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.atabytes.AdventOfCode2022;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +355,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.atabytes.AdventOfCode2022;
 				PRODUCT_NAME = "$(TARGET_NAME)";
