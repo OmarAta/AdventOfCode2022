@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var result = ""
-    let days: [Day] = [Day1(), Day2(), Day3(), Day4()]
+    let days: [Day] = [Day1(), Day2(), Day3(), Day4(), Day5()]
     var body: some View {
         VStack {
             Image(systemName: "line.horizontal.star.fill.line.horizontal")
